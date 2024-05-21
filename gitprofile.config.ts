@@ -20,7 +20,12 @@ const CONFIG = {
         limit: 8, // How many projects to display.
         exclude: {
           forks: true, // Forked projects will not be displayed if set to true.
-          projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
+          projects: ['alhans27/collection-of-algorithms', 
+                     'alhans27/port-inventory', 
+                     'alhans27/geometry-lib', 
+                     'alhans27/num-comparison', 
+                     'alhans27/Web-Programming-Exercises_K3519036',
+                     'alhans27/K3519036-Praktikum01PBO'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
       manual: {
